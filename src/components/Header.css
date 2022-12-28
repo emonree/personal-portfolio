@@ -1,3 +1,22 @@
 .header {
   background: #E9EDC9;
+  font-family: 'Karla', sans-serif;
+}
+
+.header-navigation {
+  background: #E9EDC9; 
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+}
+
+.header-navigation a {
+  padding: 20px 50px
+}
+
+.header .container {
+  margin-top: 60px;
 }

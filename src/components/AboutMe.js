@@ -1,9 +1,9 @@
 import React from 'react'
 import './AboutMe.css'
 
-const AboutMe = () => {
+const AboutMe = () => { 
   return (
-    <div className="about-me">
+    <div className="about-me" id="about-me">
       <div className="container">
 
       <h1>About Me.</h1>
