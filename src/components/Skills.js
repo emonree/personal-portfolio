@@ -1,10 +1,12 @@
 import React from 'react'
 import './Skills.css'
+import { RiReactjsLine } from 'react-icons/ri';
 
 const Skills = () => {
   return (
     <div className="skills" id="skills">
         <div className="container">
+          <RiReactjsLine size="8em"/>
         <h3>React</h3>
         <h3>HTML 5</h3>
         <h3>CSS</h3>
