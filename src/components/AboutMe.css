@@ -1,0 +1,18 @@
+.img {
+  width: 250px;
+  border-radius: 50px;
+}
+
+.about-me .container {
+  margin-top: 60px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.about-me .container .content {
+  padding: 50px;
+}
+
