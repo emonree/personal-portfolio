@@ -10,14 +10,14 @@ const AboutMe = () => {
           <img className="img" src={Image} />
         </div>
         <div className="content">
-          <h1>About Me.</h1>
+          <h1 className="title-about-me">About Me.</h1>
 
           <p>
-            I'm a healthcare worker turned full stack software developer. I'm
-            passionate about helping others, as well as being able to bring
-            value to the products that I work on.
-            <br />
-            Being in the healthcare for many years, I've come to a realization
+            I'm a full stack software developer with a background in healthcare as cardiology medical assistant and customer service. I'm people and detail oriented and is passionate about being able to bring value to the products that I work on. Working on a team has taught me to how to adapt to people with different needs and work styles and prepare for emergency situations with strict time management.
+
+            <h1>A little backstory</h1>
+          
+            Being in the healthcare industry for many years, I've come to a realization
             that not many applications are user friendly, which leads me Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
