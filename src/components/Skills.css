@@ -1,0 +1,13 @@
+.icons {
+  color: #D4A373;
+  padding: 10px;
+}
+
+.skills .icons-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.skills-header {
+  text-transform: uppercase;
+}
