@@ -1,5 +1,9 @@
 .header {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Inconsolata', monospace;
+}
+
+.header h2 {
+  text-transform: uppercase;
 }
 
 .header-navigation {
@@ -39,14 +43,20 @@
   font-size: 25px;
 }
 
-/* .header-img {
-  width: 275px;
-  border-radius: 100px;
-} */
+.fade-in-text {
+  font-size: 150px;
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 .loader {
   display: flex;
   align-self: center;
+  margin-top: 50px;
   /* the colors */
   --c1: #F5CAC3;
   --c2:#6C757D;
@@ -54,8 +64,8 @@
   --c4: #1D3557;
   /**/
   
-  width: 180px; /* control the size */
-  aspect-ratio: 8/5;
+  width: 150px; /* control the size */
+  aspect-ratio: 5/3;
   --_g: no-repeat radial-gradient(#000 68%,#0000 71%);
   -webkit-mask: var(--_g),var(--_g),var(--_g);
   -webkit-mask-size: 25% 40%;
