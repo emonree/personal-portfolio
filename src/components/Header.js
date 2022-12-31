@@ -15,14 +15,14 @@ const Header = () => {
   return (
     <div className="header" id="header">
       <div className="header-navigation">
-      <Link
+        <Link
           className="hvr-underline-from-left "
           activeClass="active"
           to="header"
           spy={true}
           smooth={true}
           hashSpy={true}
-          offset={50}
+          // offset={50}
           duration={500}
           // delay={1000}
           isDynamic={true}
@@ -40,12 +40,8 @@ const Header = () => {
           spy={true}
           smooth={true}
           hashSpy={true}
-          offset={50}
           duration={500}
-          // delay={1000}
           isDynamic={true}
-          // onSetActive={this.handleSetActive}
-          // onSetInactive={this.handleSetInactive}
           ignoreCancelEvents={false}
           spyThrottle={500}
         >
@@ -59,12 +55,8 @@ const Header = () => {
           spy={true}
           smooth={true}
           hashSpy={true}
-          offset={50}
           duration={500}
-          // delay={1000}
           isDynamic={true}
-          // onSetActive={this.handleSetActive}
-          // onSetInactive={this.handleSetInactive}
           ignoreCancelEvents={false}
           spyThrottle={500}
         >
@@ -78,12 +70,8 @@ const Header = () => {
           spy={true}
           smooth={true}
           hashSpy={true}
-          offset={50}
           duration={500}
-          // delay={1000}
           isDynamic={true}
-          // onSetActive={this.handleSetActive}
-          // onSetInactive={this.handleSetInactive}
           ignoreCancelEvents={false}
           spyThrottle={500}
         >
@@ -93,11 +81,8 @@ const Header = () => {
       <div className="container">
         <div className="">
           <div className="">
-            <h1 className="fade-in-text"
-            >Hello! I'm Emon!</h1>
-            <h2>
-              {"< Full Stack Web Developer />"}
-            </h2>
+            <h1 className="fade-in-text">Hello! I'm Emon!</h1>
+            <h2>{"< Full Stack Web Developer />"}</h2>
             <h3 /*  className="header" */>
               {" "}
               In progress: Embarking on my next journey as a software developer{" "}
