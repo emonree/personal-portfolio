@@ -12,8 +12,9 @@
 
 .skills-header {
   text-transform: uppercase;
-  /* color: #FCBF49; */
-  font-family: 'Karla', sans-serif;
+  color: #E29578;
+  font-family: 'Anybody', cursive;
+  /* font-family: 'Karla', sans-serif; */
   text-align: center;
   font-size: 45px;
 }
@@ -24,8 +25,16 @@
 }
 
 .skills {
-  background-color: #F3EEC3;
+  /* background-color: #F3EEC3; */
   padding: 15px;
+}
+
+.skills .container {
+  /* margin-top: 60px; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Float Shadow */

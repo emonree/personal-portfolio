@@ -15,78 +15,104 @@ const Header = () => {
   return (
     <div className="header" id="header">
       <div className="header-navigation">
-        <Link
-          className="hvr-underline-from-left "
-          activeClass="active"
-          to="header"
-          spy={true}
-          smooth={true}
-          hashSpy={true}
-          // offset={50}
-          duration={500}
-          // delay={1000}
-          isDynamic={true}
-          // onSetActive={this.handleSetActive}
-          // onSetInactive={this.handleSetInactive}
-          ignoreCancelEvents={false}
-          spyThrottle={500}
-        >
-          Home
-        </Link>
-        <Link
-          className="hvr-underline-from-left "
-          activeClass="active"
-          to="about-me"
-          spy={true}
-          smooth={true}
-          hashSpy={true}
-          duration={500}
-          isDynamic={true}
-          ignoreCancelEvents={false}
-          spyThrottle={500}
-        >
-          About Me
-        </Link>
+        <div className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/emonli/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              width="40px"
+            />
+          </a>
 
-        <Link
-          className="hvr-underline-from-left "
-          activeClass="active"
-          to="skills"
-          spy={true}
-          smooth={true}
-          hashSpy={true}
-          duration={500}
-          isDynamic={true}
-          ignoreCancelEvents={false}
-          spyThrottle={500}
-        >
-          Skills
-        </Link>
+          <a
+            href="https://github.com/emonree"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+              width="40px"
+            />
+          </a>
+        </div>
+        <div className="header-links">
+          <Link
+            className="hvr-underline-reveal"
+            activeClass="active"
+            to="header"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            // offset={50}
+            duration={500}
+            // delay={1000}
+            isDynamic={true}
+            // onSetActive={this.handleSetActive}
+            // onSetInactive={this.handleSetInactive}
+            ignoreCancelEvents={false}
+            spyThrottle={500}
+          >
+            Home
+          </Link>
+          <Link
+            className="hvr-underline-reveal"
+            activeClass="active"
+            to="about-me"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={500}
+            isDynamic={true}
+            ignoreCancelEvents={false}
+            spyThrottle={500}
+          >
+            About
+          </Link>
 
-        <Link
-          className="hvr-underline-from-left"
-          activeClass="active"
-          to="projects"
-          spy={true}
-          smooth={true}
-          hashSpy={true}
-          duration={500}
-          isDynamic={true}
-          ignoreCancelEvents={false}
-          spyThrottle={500}
-        >
-          Projects
-        </Link>
+          <Link
+            className="hvr-underline-reveal"
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={500}
+            isDynamic={true}
+            ignoreCancelEvents={false}
+            spyThrottle={500}
+          >
+            Skills
+          </Link>
+
+          <Link
+            className="hvr-underline-reveal"
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={500}
+            isDynamic={true}
+            ignoreCancelEvents={false}
+            spyThrottle={500}
+          >
+            Projects
+          </Link>
+        </div>
       </div>
       <div className="container">
         <div className="">
           <div className="">
-            <h1 className="fade-in-text">Hello! I'm Emon!</h1>
-            <h2>{"< Full Stack Web Developer />"}</h2>
-            <h3 /*  className="header" */>
-              {" "}
-              In progress: Embarking on my next journey as a software developer{" "}
-            </h3>
+            <h1 className="fade-in-text">
+              Hello! <span>I'm Emon</span>!
+            </h1>
+            <h2>
+              {"<"} <span>Full Stack Web Developer</span> {"/>"}
+            </h2>
+            <h3 /*  className="header" */> </h3>
           </div>
         </div>
         <div className="loader"></div>

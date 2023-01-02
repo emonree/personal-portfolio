@@ -15,7 +15,7 @@ const AboutMe = () => {
           <p>
             I'm a full stack software developer with a background in healthcare as cardiology medical assistant and customer service. I'm people and detail oriented and is passionate about being able to bring value to the products that I work on. Working on a team has taught me to how to adapt to people with different needs and work styles and prepare for emergency situations with strict time management.
 
-            <h1 className="title-about-me">A little backstory</h1>
+            <h1 className="title-about-me">Backstory</h1>
           
             I used to work as a medical assistant and had developed a big passion for helping others. Knowing I made a difference in someone's life or even their day made me feel like I was doing something right. As time went by, I realized I wanted more out of life and my career; I wanted a challenge and something to pick my brains. I had always been interested in coding, and with the encouragement and support from family and friends, I decided to take the leap because it's now or never, right?
             <br />
