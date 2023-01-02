@@ -31,6 +31,7 @@ span {
   height: 60px;
   top: 0;
   cursor: pointer;
+  z-index: 1;
 }
 
 .header-navigation .header-links a {
@@ -59,7 +60,7 @@ span {
 }
 
 .blinking {
-  animation:blinkingText 1.1s infinite;
+  animation:blinkingText 1.5s infinite;
 }
 @keyframes blinkingText{
   0%{     color: #E29578;    }
@@ -182,4 +183,14 @@ span {
 .hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
+}
+
+@media screen and (max-width: 960px) {
+  .header-navigation .header-links a {
+    padding: 20px;
+  }
+
+  .social-icons img {
+    padding: 0 10px;
+  }
 }

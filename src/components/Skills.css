@@ -83,3 +83,13 @@
 .hvr-float-shadow {
   text-align: center;
 }
+
+@media screen and (max-width: 960px) {
+  .icons {
+    width: 70px;
+  }
+  
+  .skills .icons-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

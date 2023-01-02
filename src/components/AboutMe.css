@@ -5,10 +5,11 @@
 
 .about-me .container {
   margin-top: 60px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   /* flex-wrap: wrap; */
 }
 
@@ -21,4 +22,16 @@
   text-transform: uppercase;
   text-align: center;
   /* font-family: 'Anybody', cursive; */
+}
+
+@media screen and (max-width: 960px) {
+  .about-me .container {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 150px;
+    border-radius: 20px;
+  }
+  
 }
