@@ -1,13 +1,5 @@
-import React, { useState, useEffect } from "react";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import React from "react";
+import { Link } from "react-scroll";
 import "./Header.css";
 // import Image from "../assets/IMG_4536.jpeg";
 
@@ -23,7 +15,7 @@ const Header = () => {
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              width="40px"
+              width="40px" alt="github"
             />
           </a>
 
@@ -34,7 +26,7 @@ const Header = () => {
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-              width="40px"
+              width="40px" alt="linkedin"
             />
           </a>
         </div>
@@ -107,10 +99,11 @@ const Header = () => {
         <div className="">
           <div className="">
             <h1 className="fade-in-text">
-              Hello! <span>I'm Emon</span>!
+              Hello! <span>I'm Emon</span>! Nice to meet you{" "}
+              <span className="smile-face blinking"> :] </span>
             </h1>
             <h2>
-              {"<"} <span>Full Stack Web Developer</span> {"/>"}
+              {"<"} I'm a <span>Full Stack Web Developer</span> {"/>"}
             </h2>
             <h3 /*  className="header" */> </h3>
           </div>
