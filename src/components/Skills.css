@@ -109,4 +109,8 @@
   .skills-name {
     font-size: 1em;
   }
+
+  .skills-header {
+    font-size: 35px;
+  }
 }
