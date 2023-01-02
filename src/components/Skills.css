@@ -100,4 +100,13 @@
   .icons {
     padding: 5px;
   }
+
+  .skills .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .skills-name {
+    font-size: 1em;
+  }
 }

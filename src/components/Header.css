@@ -187,10 +187,14 @@ span {
 
 @media screen and (max-width: 960px) {
   .header-navigation .header-links a {
-    padding: 20px;
+    padding: 20px 10px;
   }
 
   .social-icons img {
     padding: 0 10px;
+  }
+
+  .header .container {
+    margin-top: 20px;
   }
 }
