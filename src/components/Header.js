@@ -113,7 +113,7 @@ const Header = () => {
                 <div className="text-carousel">
                   <p className="element">CrossFit enthusiast.</p>
                   <p className="element">coffee con-non-seur.</p>
-                  <p className="element">sucker for spam and eggs.</p>
+                  <p className="element">big daydreamer.</p>
                   <p className="element">planner gal.</p>
                   <p className="element">CrossFit enthusiast.</p>
                 </div>

@@ -196,7 +196,7 @@ span {
 }
 
 .text-carousel {
-  animation: carousel 4.5s ease-in-out infinite;
+  animation: carousel 5s ease-in-out infinite;
 }
 
 @keyframes carousel {
@@ -298,7 +298,7 @@ p.element {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+  background: white;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -341,5 +341,17 @@ p.element {
 
   .header h2 {
     font-size: 1.1em;
+  }
+}
+
+@media (hover:hover) {
+  .hvr-underline-reveal {
+    color: black;
+  }
+}
+
+@media (hover:none) {
+  .hvr-underline-reveal:hover {
+    color: inherit;
   }
 }
