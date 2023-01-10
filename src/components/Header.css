@@ -343,10 +343,8 @@ p.element {
     font-size: 1.1em;
   }
 
-  
-  .hvr-underline-reveal:active:before, 
-  .hvr-underline-reveal:focus:before, 
-  .hvr-underline-reveal:hover:before {
-    transform: none;
+  /* disable hover effect for mobile */
+  .hvr-underline-reveal:before {
+    display: none;
   }
 }
