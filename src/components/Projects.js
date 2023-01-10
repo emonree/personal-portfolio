@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import PlantNurseryImage from '../assets/plantnursery.png';
+import FirstPortfolio from '../assets/firstportfolio.png';
 
 const Projects = () => {
   return (
@@ -35,7 +36,10 @@ const Projects = () => {
                 >
                   Bailey
                 </a>
-                . An app built with React, Express, and Mongoose.
+                . An app built with{" "}
+                <span className="programming-language">React</span>,{" "}
+                <span className="programming-language">Express</span>, and{" "}
+                <span className="programming-language">Mongoose</span>.
               </p>
             </div>
             <div className="first-portfolio-project">
@@ -43,7 +47,15 @@ const Projects = () => {
                 href="https://clinquant-duckanoo-46dc05.netlify.app/index.html"
                 target="_blank"
                 rel="noreferrer noopener"
-              ></a>
+              >
+                <img
+                  className="first-portfolio-img"
+                  src={FirstPortfolio}
+                ></img>
+              </a>
+              <p>
+                My first ever multi-page-app built with HTML and CSS. 
+              </p>
             </div>
           </div>
         </div>
