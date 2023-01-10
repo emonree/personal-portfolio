@@ -99,7 +99,7 @@ span {
   /* font-size: 150px; */
   animation: fadeIn2 3.5s;
   margin-top: 50px;
-  margin-bottom: 50px;;
+  margin-bottom: 50px;
 }
 
 @keyframes fadeIn2 {
@@ -200,32 +200,56 @@ span {
 }
 
 @keyframes carousel {
-    0%, 20% {
-        transform: translateY(0);
-    }
-    25%, 45% {
-        transform: translateY(-48px)
-    }
-    50%, 70% {
-        transform: translateY(-96px)
-    }
-    75%, 95% {
-        transform: translateY(-144px)
-    }
-    100% {
-        transform: translateY(-192px)
-    }
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  45% {
+    transform: translateY(-48px);
+  }
+  50%,
+  70% {
+    transform: translateY(-96px);
+  }
+  75%,
+  95% {
+    transform: translateY(-144px);
+  }
+  100% {
+    transform: translateY(-192px);
+  }
 }
 
+@keyframes carouselMobile {
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+  25%,
+  45% {
+    transform: translateY(-44px);
+  }
+  50%,
+  70% {
+    transform: translateY(-88px);
+  }
+  75%,
+  95% {
+    transform: translateY(-132px);
+  }
+  100% {
+    transform: translateY(-176px);
+  }
+}
 .carousel-container {
   display: flex;
   align-items: center;
-  
 }
 
 .carousel-container span {
   font-size: 22px;
-  color: black
+  color: black;
 }
 
 p.element {
@@ -331,9 +355,28 @@ p.element {
     margin-top: 0px;
   }
 
-  .loader {
-    width: 100px;
+  .carousel-container {
+    display: block;
   }
+
+  .carousel-container span {
+    font-size: 16px;
+  }
+
+  .header-carousel {
+    margin-top: 10px;
+  }
+
+  .text-carousel {
+    animation: carouselMobile 5s ease-in-out infinite;
+  }
+
+  p.element {
+    font-size: 20px;
+  }
+  /* .loader {
+    width: 100px;
+  } */
 
   .header h1 {
     font-size: 45px;
