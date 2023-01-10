@@ -1,0 +1,10 @@
+.projects {
+  font-family: 'Anybody', cursive;
+}
+
+.projects h1 {
+  color: #E29578;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+}
