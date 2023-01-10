@@ -342,16 +342,11 @@ p.element {
   .header h2 {
     font-size: 1.1em;
   }
-}
 
-@media (hover:hover) {
-  .hvr-underline-reveal {
-    color: black;
-  }
-}
-
-@media (hover:none) {
-  .hvr-underline-reveal:hover {
-    color: inherit;
+  
+  .hvr-underline-reveal:active:before, 
+  .hvr-underline-reveal:focus:before, 
+  .hvr-underline-reveal:hover:before {
+    transform: none;
   }
 }
