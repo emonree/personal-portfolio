@@ -38,7 +38,7 @@
 }
 
 /* Float Shadow */
-.hvr-float-shadow {
+.hvr-float-shadow-skills {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -50,7 +50,7 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-float-shadow:before {
+.hvr-float-shadow-skills:before {
   pointer-events: none;
   position: absolute;
   z-index: -1;
@@ -68,19 +68,19 @@
   -webkit-transition-property: transform, opacity;
   transition-property: transform, opacity;
 }
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+.hvr-float-shadow-skills:hover, .hvr-float-shadow-skills:focus, .hvr-float-shadow-skills:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   /* move the element up by 5px */
 }
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+.hvr-float-shadow-skills:hover:before, .hvr-float-shadow-skills:focus:before, .hvr-float-shadow-skills:active:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-.hvr-float-shadow {
+.hvr-float-shadow-skills {
   text-align: center;
 }
 
