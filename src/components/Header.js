@@ -15,7 +15,8 @@ const Header = () => {
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              width="40px" alt="github"
+              width="40px"
+              alt="github"
             />
           </a>
 
@@ -26,7 +27,8 @@ const Header = () => {
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-              width="40px" alt="linkedin"
+              width="40px"
+              alt="linkedin"
             />
           </a>
         </div>
@@ -102,10 +104,21 @@ const Header = () => {
               Hello! <span>I'm Emon</span>! Nice to meet you{" "}
               <span className="smile-face blinking"> :] </span>
             </h1>
-            <h2>
+            <h2 className="fade-in-text-2">
               {"<"} I'm a <span>Full Stack Web Developer</span> {"/>"}
             </h2>
-            <h3 /*  className="header" */> </h3>
+            <div className="carousel-container">
+              <span>Aside from being a developer, I am also a&nbsp;</span>
+              <div className="header-carousel">
+                <div className="text-carousel">
+                  <p className="element">CrossFit enthusiast.</p>
+                  <p className="element">coffee con-non-seur.</p>
+                  <p className="element">sucker for spam and eggs.</p>
+                  <p className="element">planner gal.</p>
+                  <p className="element">CrossFit enthusiast.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="loader"></div>
