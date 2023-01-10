@@ -21,7 +21,7 @@
   color: #E29578;
   text-transform: uppercase;
   text-align: center;
-  /* font-family: 'Anybody', cursive; */
+  font-family: 'Anybody', cursive;
 }
 
 @media screen and (max-width: 960px) {
