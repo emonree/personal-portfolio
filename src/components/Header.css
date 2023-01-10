@@ -322,7 +322,7 @@ p.element {
   left: 0;
   right: 0;
   bottom: 0;
-  background: white;
+  background: #84A59D;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -339,6 +339,10 @@ p.element {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
+
+/* .hvr-underline-reveal:hover {
+  color: #84A59D;
+} */
 
 @media screen and (max-width: 960px) {
   .header-navigation .header-links a {
