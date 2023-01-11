@@ -13,13 +13,14 @@ const Projects = () => {
               <div className="doctor-visit-project">
                 <a
                   className="hvr-float-shadow"
-                  href="#"
+                  href="https://google.com" //fake link
                   target="_blank"
                   rel="noreferrer noopener"
                 >
                   <img
                     className="doctor-visit-img"
-                    src={DoctorVisitImage}
+                  src={DoctorVisitImage}
+                  alt="doctor visits app"
                   ></img>
                 </a>
                 <p>
@@ -60,6 +61,7 @@ const Projects = () => {
                 <img
                   className="plant-nursery-img"
                   src={PlantNurseryImage}
+                  alt="plant nursery app"
                 ></img>
               </a>
               <p className="plant-project-info">
