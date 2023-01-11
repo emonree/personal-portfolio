@@ -33,7 +33,11 @@ const Header = () => {
                 alt="linkedin"
               />
             </a>
-            <a>
+            <a
+              href="www.google.com" // fake link. need to add resume link
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <span className="resume">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +164,11 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a>
+                    <a
+                      href="www.google.com" // fake link. need to add resume link
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
                       <span className="resume">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
