@@ -135,7 +135,7 @@ const Header = () => {
                 <div className="social-icons">
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/emonli/"
+                      href="https://github.com/emonree"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -148,7 +148,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      href="https://github.com/emonree"
+                      href="https://www.linkedin.com/in/emonli/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
