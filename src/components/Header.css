@@ -16,7 +16,7 @@
 .resume {
   /* margin: 10px; */
   padding: 0 15px;
-  color: black;;
+  color: black;
 }
 
 span {
@@ -46,6 +46,150 @@ span {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+/* https://alvarotrigo.com/blog/hamburger-menu-css/ */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  color: black;
+  height: 50px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  margin-top: 50px;
+  right: 0;
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  background-color: #aed9e0;
+  opacity: 0.7;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: flex;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #000;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+#menu-toggle ~ .menu > li {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#menu-toggle:checked ~ .menu > li {
+  height: 2.5em;
+  padding: 0.5em;
+  transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 3;
+}
+
+.menu > li {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5em 0;
+  width: 100%;
+  color: black;
+}
+
+.menu li:hover {
+  background-color: #e0e2ce;
+}
+
+.menu a {
+  color: #1b263b;
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 40px;
+}
+/* mobile social icons */
+/* css specificity requires this */
+#menu-toggle:checked ~ .menu .li-social-icons {
+  height: 170px;
+}
+
+.mobile-nav .social-icons {
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-nav .social-icons li,
+.mobile-nav .social-icons a {
+  width: 100%;
+}
+
+#socials {
+  margin-top: 30px;
+}
+
+#socials a {
+  text-decoration: none;
 }
 
 /* .header-navigation a:hover {
@@ -268,53 +412,6 @@ p.element {
   color: #e29578;
 }
 
-/* @keyframes carousel {
-  0% {
-    transform: translateY(-98px);
-  }
-  5%,
-  50% {
-    transform: translateY(-48px);
-  }
-  55%,
-  95% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(48px);
-  } */
-/* } */
-
-/* Underline From Left
-.hvr-underline-from-left {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
-}
-.hvr-underline-from-left:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: #2098D1;
-  height: 4px;
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
-  right: 0;
-} */
-
 /* Underline Reveal */
 .hvr-underline-reveal {
   display: inline-block;
@@ -332,7 +429,7 @@ p.element {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #84A59D;
+  background: #84a59d;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
@@ -350,10 +447,6 @@ p.element {
   transform: translateY(0);
 }
 
-/* .hvr-underline-reveal:hover {
-  color: #84A59D;
-} */
-
 @media screen and (max-width: 960px) {
   .header-navigation .header-links a {
     padding: 20px 10px;
@@ -364,9 +457,17 @@ p.element {
     display: none;
   }
 
-  .social-icons img {
+  /* .desktop-nav .social-icons {
+    display: none;
+  } */
+
+  .desktop-nav .social-icons img {
     padding: 0 10px;
     width: 20px;
+  }
+
+  .mobile-nav .social-icons img {
+    padding: 8px
   }
 
   .header .container {
@@ -392,6 +493,7 @@ p.element {
   p.element {
     font-size: 20px;
   }
+
   /* .loader {
     width: 100px;
   } */
@@ -414,5 +516,4 @@ p.element {
   .mobile-nav {
     display: none;
   }
-
 }
