@@ -27,6 +27,7 @@
 .plant-nursery-project {
   display: flex;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .plant-nursery-project p {
@@ -53,11 +54,23 @@ a:-webkit-any-link {
   font-weight: bold;
 }
 
-/* first portfolio */
-.first-portfolio-img {
+/* doctors-visit project */
+.doctor-visit-project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.doctor-visit-img {
   width: 500px;
   border-radius: 10px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+}
+
+.doctor-visit-project p {
+  font-family: 'Nunito', sans-serif;
+  padding: 30px;
+  font-size: 18px;
 }
 
 /* Float Shadow */
