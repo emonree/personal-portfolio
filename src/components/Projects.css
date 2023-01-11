@@ -40,25 +40,13 @@
   font-weight: bold;
 }
 
-.bailey-link {
-  text-decoration: none;
-}
-
-.bailey-link:hover {
-  background-color: #F6BD60;
-  color: white;
-}
-
-a:-webkit-any-link {
-  color: #84A59D;
-  font-weight: bold;
-}
-
 /* doctors-visit project */
 .doctor-visit-project {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  /* border: 1px solid black;
+  padding-bottom: 40px */
 }
 
 .doctor-visit-img {
@@ -116,4 +104,37 @@ a:-webkit-any-link {
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+@media screen and (max-width: 960px) {
+  .doctor-visit-project,
+  .plant-nursery-project {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .doctor-visit-img,
+  .plant-nursery-img {
+    width: 350px;
+    border-radius: 20px;
+  }
+
+  .doctor-visit-project p,
+  .plant-nursery-project p {
+    font-size: 15px;
+  }
+
+  .doctor-visit-project {
+   margin-bottom: 0px;
+  }
+
+  .doctor-visit-project p,
+  .plant-nursery-project p {
+    padding-bottom: 0px;
+  }
+
+  .plant-nursery-project {
+    margin-top: 20px;
+  }
 }
