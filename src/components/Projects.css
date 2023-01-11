@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .projects h1 {
@@ -57,7 +57,7 @@ a:-webkit-any-link {
 .first-portfolio-img {
   width: 500px;
   border-radius: 10px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 /* Float Shadow */
