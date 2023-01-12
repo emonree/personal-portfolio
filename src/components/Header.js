@@ -189,7 +189,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      href={Resume}// fake link. need to add resume link 
+                      href={Resume}
                       target="_blank"
                       rel="noreferrer noopener"
                     >

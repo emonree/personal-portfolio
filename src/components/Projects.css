@@ -28,7 +28,7 @@
 .plant-nursery-project {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .plant-nursery-project p {
@@ -60,6 +60,23 @@
   font-family: 'Nunito', sans-serif;
   padding: 30px;
   font-size: 18px;
+}
+
+/* dating app project */
+.dating-app-project {
+  display: flex;
+  align-items: center;
+}
+
+.dating-app-project p {
+  font-family: 'Nunito', sans-serif;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.dating-app-img {
+  width: 300px;
+  border-radius: 10px;
 }
 
 /* Float Shadow */
