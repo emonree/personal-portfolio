@@ -5,6 +5,12 @@ import "./Header.css";
 // import Image from "../assets/IMG_4536.jpeg";
 
 const Header = () => {
+  const handleMenuClick = (target) => {
+    document.getElementById(target).scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="header" id="header">
       <div className="header-navigation">
@@ -44,7 +50,7 @@ const Header = () => {
                   width="38.5"
                   height="38"
                   fill="currentColor"
-                  class="bi bi-person-workspace"
+                  className="bi bi-person-workspace"
                   viewBox="0 0 16 16"
                 >
                   <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
@@ -120,20 +126,38 @@ const Header = () => {
           </div>
         </div>
         <div className="mobile-nav">
-          <section class="top-nav">
+          <section className="top-nav">
             <input id="menu-toggle" type="checkbox" />
-            <label class="menu-button-container" for="menu-toggle">
-              <div class="menu-button"></div>
+            <label className="menu-button-container" htmlFor="menu-toggle">
+              <div className="menu-button"></div>
             </label>
-            <ul class="menu">
+            <ul className="menu">
               <li>
-                <a href="#about-me">About Me</a>
+                <span
+                  onClick={() => {
+                    handleMenuClick("about-me");
+                  }}
+                >
+                  About Me
+                </span>
               </li>
               <li>
-                <a href="#skills">Toolbox</a>
+                <span
+                  onClick={() => {
+                    handleMenuClick("skills");
+                  }}
+                >
+                  Toolbox
+                </span>
               </li>
               <li>
-                <a href="#projects">Portfolio</a>
+                <span
+                  onClick={() => {
+                    handleMenuClick("projects");
+                  }}
+                >
+                  Projects
+                </span>
               </li>
               <li className="li-social-icons">
                 <div className="social-icons">
@@ -175,7 +199,7 @@ const Header = () => {
                           width="38.5"
                           height="38"
                           fill="currentColor"
-                          class="bi bi-person-workspace"
+                          className="bi bi-person-workspace"
                           viewBox="0 0 16 16"
                         >
                           <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
