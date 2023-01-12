@@ -33,5 +33,9 @@
     width: 150px;
     border-radius: 20px;
   }
+
+  .about-me .container .content {
+    padding: 30px;
+  }
   
 }
