@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./Header.css";
+import Resume from "../assets/Resume Jan 2023.pdf";
 // import Image from "../assets/IMG_4536.jpeg";
 
 const Header = () => {
@@ -40,7 +41,7 @@ const Header = () => {
               />
             </a>
             <a
-              href="www.google.com" // fake link. need to add resume link
+              href={Resume}
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -57,7 +58,6 @@ const Header = () => {
                   <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z" />
                 </svg>
               </span>
-              {/* <i className="resume" class="bi bi-person-workspace"></i> */}
             </a>
           </div>
           <div className="header-links">
@@ -189,7 +189,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      href="www.google.com" // fake link. need to add resume link
+                      href={Resume}// fake link. need to add resume link 
                       target="_blank"
                       rel="noreferrer noopener"
                     >
