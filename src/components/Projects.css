@@ -1,5 +1,5 @@
 .projects {
-  font-family: 'Anybody', cursive;
+  font-family: "Anybody", cursive;
   padding-top: 100px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .projects h1 {
-  color: #E29578;
+  color: #e29578;
   text-transform: uppercase;
   text-align: center;
   font-size: 45px;
@@ -32,8 +32,8 @@
 }
 
 .plant-nursery-project p {
-  font-family: 'Nunito', sans-serif;
-  padding: 30px;
+  font-family: "Nunito", sans-serif;
+  /* padding: 30px; */
   font-size: 18px;
 }
 
@@ -57,9 +57,13 @@
 }
 
 .doctor-visit-project p {
-  font-family: 'Nunito', sans-serif;
-  padding: 30px;
+  font-family: "Nunito", sans-serif;
+  /* padding: 30px; */
   font-size: 18px;
+}
+
+.project-info {
+  padding: 30px;
 }
 
 /* dating app project */
@@ -69,13 +73,13 @@
 }
 
 .dating-app-project p {
-  font-family: 'Nunito', sans-serif;
-  padding: 30px;
+  font-family: "Nunito", sans-serif;
+  /* padding: 30px; */
   font-size: 18px;
 }
 
 .dating-app-img {
-  width: 300px;
+  width: 290px;
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -97,28 +101,39 @@
   pointer-events: none;
   position: absolute;
   z-index: -1;
-  content: '';
+  content: "";
   top: 100%;
   left: 5%;
   margin-top: 10px;
   height: 10px;
   width: 90%;
   opacity: 0;
-  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: -webkit-radial-gradient(
+    center,
+    ellipse,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 80%
+  );
   /* W3C */
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform, opacity;
   transition-property: transform, opacity;
 }
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+.hvr-float-shadow:hover,
+.hvr-float-shadow:focus,
+.hvr-float-shadow:active {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   /* move the element up by 5px */
 }
 /* .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before { */
-  .hvr-float-shadow:before {
+.hvr-float-shadow:before {
   opacity: 1;
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
@@ -146,7 +161,7 @@
   }
 
   .doctor-visit-project {
-   margin-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   .doctor-visit-project p,
@@ -160,7 +175,13 @@
   }
 
   .dating-app-img {
-    width: 200px;
+    width: 180px;
     border-radius: 20px;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
