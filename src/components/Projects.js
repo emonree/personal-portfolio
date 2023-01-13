@@ -28,9 +28,9 @@ const Projects = () => {
                 <p>
                   Do you or your loved ones struggle with remembering everything
                   your doctor tells you during your visit? The Health Journal
-                  makes jotting down notes easy and convenient. Each profile has a demographic
-                  information, past medical history, and allergies section, and a visit
-                  summary for each visit. Built with{" "}
+                  makes jotting down notes easy and convenient. Each profile has
+                  a demographic information, past medical history, and allergies
+                  section, and a visit summary for each visit. Built with{" "}
                   <span className="programming-language">Express</span>,{" "}
                   <span className="programming-language">EJS</span>,{" "}
                   <span className="programming-language">HTML</span>, and{" "}
