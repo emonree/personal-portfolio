@@ -35,8 +35,6 @@ const Projects = () => {
                   <span className="programming-language">EJS</span>,{" "}
                   <span className="programming-language">HTML</span>, and{" "}
                   <span className="programming-language">Mongoose</span>.
-                  {/* <br />
-                  <br /> */}
                 </p>
 
                 <a
@@ -162,9 +160,6 @@ const Projects = () => {
                 <span className="programming-language">Bootstrap</span>, and{" "}
                 <span className="programming-language">MUI</span>.
               </p>
-
-              {/* <br />
-            <br /> */}
               <div className="">
                 <a
                   href="https://github.com/evrouge/dating-app-frontend"
@@ -186,7 +181,6 @@ const Projects = () => {
                     </g>
                   </svg>
                 </a>
-
                 <a
                   className="back-repo-icon"
                   href="https://github.com/evrouge/dating-app-backend"
