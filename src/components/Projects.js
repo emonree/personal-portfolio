@@ -84,8 +84,6 @@ const Projects = () => {
                   <span className="programming-language">React Router</span>,{" "}
                   <span className="programming-language">Express</span>, and{" "}
                   <span className="programming-language">Mongoose</span>.
-                  {/* <br />
-                  <br /> */}
                 </p>
                 <div className="">
                   <a
