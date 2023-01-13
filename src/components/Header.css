@@ -13,7 +13,8 @@
   /* margin-left: 5px; */
 }
 
-.resume {
+.resume,
+.contact {
   /* margin: 10px; */
   padding: 0 15px;
   color: black;
@@ -162,7 +163,8 @@ span {
 }
 
 .menu span {
-  color: #1b263b;
+  /* color: #1b263b; */
+  color: black;
   text-decoration: none;
 }
 
@@ -172,13 +174,15 @@ span {
 /* mobile social icons */
 /* css specificity requires this */
 #menu-toggle:checked ~ .menu .li-social-icons {
-  height: 170px;
+  height: 240px;
+  padding-top: 0px
 }
 
 .mobile-nav .social-icons {
   flex-direction: column;
   width: 100%;
   text-align: center;
+  margin-left: 0px
 }
 
 .mobile-nav .social-icons li,
@@ -469,6 +473,11 @@ p.element {
   }
 
   .mobile-nav .social-icons img {
+    padding: 8px;
+  }
+  
+  .contact-icon,
+  .resume-icon {
     padding: 8px;
   }
 
