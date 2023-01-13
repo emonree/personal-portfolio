@@ -14,7 +14,7 @@ const Projects = () => {
             <div className="doctor-visit-project">
               <a
                 className="hvr-float-shadow"
-                href="https://google.com" //fake link
+                href="https://warm-dawn-96579.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
