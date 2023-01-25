@@ -12,6 +12,11 @@ const Projects = () => {
         <div className="projects-header">
           <h1>Projects</h1>
           <div className="project-container">
+            <span className="project-title hide-title-desktop">
+              Tinder for Resumes
+            </span>
+            <br className="hide-desktop" />
+            {/* <br /> */}
             <div className="resume-swype-project">
               <a
                 className="hvr-float-shadow"
@@ -27,9 +32,11 @@ const Projects = () => {
               </a>
               <div className="project-info">
                 <p>
-                  <span className="project-title">Tinder for Resumes</span>
+                  <span className="project-title hide-title-mobile resume-title-mobile">
+                    Tinder for Resumes
+                  </span>
                   <br className="hide-mobile" />
-                  <br />
+                  <br className="hide-mobile" />
                   This app is for the recruiters! The average time recruiters
                   look at a resume for is six seconds! This app allows
                   recruiters to accept or reject a resume at a tap or swipe of a
@@ -87,6 +94,11 @@ const Projects = () => {
             </div>
             <hr />
             <div className="doctor-visit-project">
+              <span className="project-title hide-title-desktop">
+                Health Journal for caregivers
+              </span>
+              <br className="hide-desktop" />
+              {/* <br /> */}
               <a
                 className="hvr-float-shadow"
                 href="https://warm-dawn-96579.herokuapp.com/"
@@ -101,11 +113,11 @@ const Projects = () => {
               </a>{" "}
               <div className="project-info">
                 <p>
-                  <span className="project-title">
+                  <span className="project-title hide-title-mobile">
                     Health Journal for caregivers
                   </span>
                   <br className="hide-mobile" />
-                  <br />
+                  <br className="hide-mobile" />
                   Do you or your loved ones struggle with remembering everything
                   your doctor tells you during your visit? The Health Journal
                   makes jotting down notes easy and convenient. Each profile has
@@ -141,6 +153,11 @@ const Projects = () => {
             </div>
             <hr />
             <div className="plant-nursery-project">
+              <span className="project-title hide-title-desktop">
+                Plant Nursery
+              </span>
+              <br className="hide-desktop" />
+              {/* <br /> */}
               <a
                 className="hvr-float-shadow"
                 href="https://sunshine-nursery.netlify.app/"
@@ -155,9 +172,11 @@ const Projects = () => {
               </a>
               <div className="project-info">
                 <p className="plant-project-info">
-                  <span className="project-title">Plant Nursery</span>
+                  <span className="project-title hide-title-mobile">
+                    Plant Nursery
+                  </span>
                   <br className="hide-mobile" />
-                  <br />
+                  <br className="hide-mobile" />
                   If you love plants like I do, this app showcases the different
                   types of plants and provides information on what climate they
                   thrive best in, the amount of light and water required, and
@@ -216,6 +235,11 @@ const Projects = () => {
           </div>
           <hr />
           <div className="dating-app-project">
+            <span className="project-title hide-title-desktop">
+              LoveStruck - A Dating App
+            </span>
+            <br className="hide-desktop" />
+            {/* <br /> */}
             <a
               className="hvr-float-shadow"
               href="https://singular-druid-6c25ce.netlify.app/"
@@ -230,9 +254,11 @@ const Projects = () => {
             </a>
             <div className="project-info">
               <p>
-                <span className="project-title">A Dating App</span>
+                <span className="project-title hide-title-mobile">
+                  LoveStruck - A Dating App
+                </span>
                 <br className="hide-mobile" />
-                <br />
+                <br className="hide-mobile" />
                 Are other dating apps not working out for you simply because
                 you're not able to find your match? Try LoveStruck! Your other
                 half might just be waiting for you swipe on them! A
