@@ -18,6 +18,13 @@
   font-size: 45px;
 }
 
+.project-title {
+  font-family: "Anybody", cursive;
+  color: #3D5A80;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 /* plant nursery project */
 .plant-nursery-img {
   width: 500px;
@@ -205,5 +212,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .project-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
 }

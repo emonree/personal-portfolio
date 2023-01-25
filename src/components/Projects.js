@@ -27,6 +27,9 @@ const Projects = () => {
               </a>
               <div className="project-info">
                 <p>
+                  <span className="project-title">Tinder for Resumes</span>
+                  <br />
+                  <br />
                   This app is for the recruiters! The average time recruiters
                   look at a resume for is six seconds! This app allows
                   recruiters to accept or reject a resume at a tap or swipe of a
@@ -98,6 +101,9 @@ const Projects = () => {
               </a>{" "}
               <div className="project-info">
                 <p>
+                  <span className="project-title">Health Journal for caregivers</span>
+                  <br />
+                  <br />
                   Do you or your loved ones struggle with remembering everything
                   your doctor tells you during your visit? The Health Journal
                   makes jotting down notes easy and convenient. Each profile has
@@ -147,6 +153,9 @@ const Projects = () => {
               </a>
               <div className="project-info">
                 <p className="plant-project-info">
+                  <span className="project-title">Plant Nursery</span>
+                  <br />
+                  <br />
                   If you love plants like I do, this app showcases the different
                   types of plants and provides information on what climate they
                   thrive best in, the amount of light and water required, and
@@ -219,6 +228,9 @@ const Projects = () => {
             </a>
             <div className="project-info">
               <p>
+                <span className="project-title">A Dating App</span>
+                <br />
+                <br />
                 Are other dating apps not working out for you simply because
                 you're not able to find your match? Try LoveStruck! Your other
                 half might just be waiting for you swipe on them! A
