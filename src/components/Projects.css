@@ -85,6 +85,22 @@
   margin-top: 10px;
 }
 
+/* resume project */
+.resume-swype-project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.resume-swype-img {
+  width: 270px;
+}
+
+.resume-swype-project p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
 /* Float Shadow */
 .hvr-float-shadow {
   display: inline-block;
@@ -144,7 +160,8 @@
 @media screen and (max-width: 960px) {
   .doctor-visit-project,
   .plant-nursery-project,
-  .dating-app-project {
+  .dating-app-project,
+  .resume-swype-project {
     display: flex;
     flex-direction: column;
   }
