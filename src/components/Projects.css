@@ -46,6 +46,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  margin-top: 30px;
   /* border: 1px solid black;
   padding-bottom: 40px */
 }
@@ -174,17 +175,20 @@
 
   .doctor-visit-project p,
   .plant-nursery-project p,
-  .dating-app-project p {
+  .dating-app-project p,
+  .resume-swype-project p {
     font-size: 15px;
   }
 
-  .doctor-visit-project {
+  .doctor-visit-project,
+  .resume-swype-project {
     margin-bottom: 0px;
   }
 
   .doctor-visit-project p,
   .plant-nursery-project p,
-  .dating-app-project p {
+  .dating-app-project p,
+  .resume-swype-preject p {
     padding-bottom: 0px;
   }
 
