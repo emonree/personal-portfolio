@@ -13,7 +13,7 @@ const AboutMe = () => {
           <h1 className="title-about-me">About</h1>
 
           <p>
-            I'm a full stack software developer with a background in healthcare as a cardiology medical assistant and customer service. I'm people and detail oriented and passionate about being able to bring value to the products that I work on. My previous work experience has taught me to how to adapt to people with different needs and work styles and prepare for emergency situations with strict time management.
+            I'm a full stack software developer with a background in healthcare as a cardiology medical assistant and customer service. I'm people and detail oriented and passionate about being able to bring value to the products that I work on. My previous work experience has taught me to how to adapt to people with different needs and work styles, and prepare for emergency situations with strict time management.
 
             <h1 className="title-about-me">Backstory</h1>
           
