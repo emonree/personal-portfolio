@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./Header.css";
-import Resume from "../assets/Resume Jan 2023.pdf";
+import Resume from "../assets/Resume Updated Jan 25.pdf";
 
 const Header = () => {
   const handleMenuClick = (target) => {

@@ -15,7 +15,7 @@ const Projects = () => {
             <div className="resume-swype-project">
               <a
                 className="hvr-float-shadow"
-                href="https://kaleidoscopic-douhua-9a3677.netlify.app/"
+                href="https://jazzy-sfogliatella-eaa371.netlify.app"
                 target="_blank"
                 rel="noreferrer noopener"
               >
