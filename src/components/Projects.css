@@ -219,4 +219,8 @@
     justify-content: center;
     margin-top: 10px;
   }
+
+  .hide-mobile {
+    display: none;
+  }
 }
