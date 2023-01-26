@@ -12,12 +12,12 @@ const Projects = () => {
         <div className="projects-header">
           <h1>Projects</h1>
           <div className="project-container">
-            <span className="project-title hide-title-desktop">
-              Tinder for Resumes
-            </span>
-            <br className="hide-desktop" />
-            {/* <br /> */}
             <div className="resume-swype-project">
+              <span className="project-title hide-title-desktop">
+                Tinder for Resumes
+              </span>
+              <br className="hide-desktop" />
+              {/* <br /> */}
               <a
                 className="hvr-float-shadow"
                 href="https://jazzy-sfogliatella-eaa371.netlify.app"
