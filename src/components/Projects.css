@@ -109,6 +109,22 @@
   font-size: 18px;
 }
 
+/* weights app */
+.weights-img {
+  width: 330px;
+}
+
+.weights-app {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.weights-app p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
 /* Float Shadow */
 .hvr-float-shadow {
   display: inline-block;

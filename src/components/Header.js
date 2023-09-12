@@ -166,7 +166,7 @@ const Header = () => {
                 </span>
               </li>
               <li className="li-social-icons">
-                <div className="social-icons">
+                <ul className="social-icons">
                   <li>
                     <a
                       href="https://github.com/emonree"
@@ -228,7 +228,7 @@ const Header = () => {
                       </span>
                     </a>
                   </li>
-                </div>
+                </ul>
               </li>
             </ul>
           </section>

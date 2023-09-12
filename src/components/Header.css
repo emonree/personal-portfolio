@@ -155,7 +155,8 @@ span {
   color: black;
 }
 
-.menu li:hover {
+.menu > li:hover,
+.li-social-icons .social-icons li:hover {
   background-color: #e0e2ce;
 }
 
@@ -172,14 +173,19 @@ span {
 /* css specificity requires this */
 #menu-toggle:checked ~ .menu .li-social-icons {
   height: 240px;
-  padding-top: 0px
+  padding-top: 0px;
+}
+
+.li-social-icons ul {
+  list-style: none;
+  padding-inline-start: 0px;
 }
 
 .mobile-nav .social-icons {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  margin-left: 0px
+  margin-left: 0px;
 }
 
 .mobile-nav .social-icons li,
@@ -465,7 +471,7 @@ p.element {
   .mobile-nav .social-icons img {
     padding: 8px;
   }
-  
+
   .contact-icon,
   .resume-icon {
     padding: 8px;
